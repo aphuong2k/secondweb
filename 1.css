@@ -1,0 +1,282 @@
+*{margin:0;padding:0;}
+
+nav.navbar.navbar-default.affix {
+    z-index: 10;
+    width: 100%;
+    height: 80px;
+}
+
+button.navbar-toggle {
+    margin-top: 20px;
+}
+
+.anh7 p {
+    background: #233140;
+    color: white;
+    padding: 30px;
+    margin-bottom: 0;
+}
+
+.anh6 ul li a {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 6px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 0px 7px;
+    color: white;
+}
+
+.anh6 li {
+    color: white;
+    display: inline-block;
+}
+
+.anh6 ul li a:hover {
+    background: white;
+    color: #18bc9c;
+    transition: 0.5s;
+}
+
+
+.anh6 p {
+    font-size: 18px;
+}
+
+.anh6 {
+    background: #2c3e50;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+
+button.btn.btn-primary {
+    margin-bottom: 110px;
+    background: #18bc9c;
+    border: none;
+    padding: 20px 25px;
+    font-size: 18px;
+}
+
+textarea {
+    border: none;
+    border-top: 1px solid #eeeeee;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    color: #a69999;
+    padding-top: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.form-control {
+    border: none;
+    font-size: 1.5em;
+    /* padding: 30px; */
+}
+
+input.form-control {
+    border: none;
+    padding: 30px 5px;
+    border-top: 1px solid #eeeeee;
+    border-radius: 0;
+}
+
+.form1 {
+    padding-top: 30px;
+}
+
+.anh5 h1 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+a.btn.btn-default {
+    background: #18bc9c;
+    border: 2px solid white;
+    font-size: 25px;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+}
+
+a.btn.btn-default:hover {
+    background: white;
+    transition: 0.5s;
+}
+
+.anh4 h1 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 90px;
+}
+
+.anh4 {
+    background: #18bc9c;
+    color: white;
+}
+
+.vanban {
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.anh {
+    padding-top: 35px;
+    padding-bottom: 100px;
+}
+
+.anh3 h1 {
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 90px;
+}
+
+.anh3 logo {
+    background: white;
+}
+
+i.fa.fa-search-plus.fa-3x {
+    padding-top: 110px;
+    font-size: 4em;
+}
+
+.zoom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #18bc9c;
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sanpham:hover .zoom {
+    opacity: 1;
+}
+
+.logo {
+    border-bottom: 5px solid;
+    width: 250px;
+    margin: auto;
+}
+
+.logo i {
+    position: relative;
+    top: -25px;
+    padding: 0 15px;
+    background: #18bc9c;
+}
+
+.anh5 .logo i {
+    background: white;
+}
+
+.anh3 .logo i {
+    background: white;
+}
+
+.logo i {
+    position: relative;
+    top: 20px;
+}
+
+.anh2 h1 {
+    font-weight: 700;
+    font-size: 73px;
+    padding-top: 13px;
+}
+
+.anh2 {
+    background-color: #18bc9c;
+    color: white;
+    padding-top: 110px;
+}
+
+.anh2 h3 {
+    font-size: 25px;
+    padding-bottom: 100px;
+    padding-top: 15px;
+}
+
+.anh2 img {
+    padding-top: 90px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 30px;
+    transition: all 0.5s;
+}
+
+.them ul.nav.navbar-nav.navbar-right {
+    padding-top: 15px;
+}
+
+
+a.navbar-brand {font-size: 32px;font-weight: 700;padding-top: 45px;transition: all 0.5s;}
+
+.them a.navbar-brand {
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+nav.navbar.navbar-default {
+    height: 110px;
+    background: #2c3e50;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    border: none;
+    transition: all 0.5s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.them {
+    height: 80px;
+    transition: all 0.5s;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #18bc9c;
+    transition: 0.5s;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: black;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #18bc9c;
+    transition: 0.5s;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.anh6 h3 {
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.sanpham {
+    position: relative;
+    margin-bottom: 25px;
+}
